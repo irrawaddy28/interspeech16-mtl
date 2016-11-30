@@ -1,6 +1,0 @@
-# Compilation of poster.tex depends on baposter.cls. The cls file follows the
-# pdflatex method rather than the latex+dvips method. Hence, do not compile
-# poster.tex with latex+dvips. This also means all images/figs etc in
-# poster.tex file must be either JPEG/PDF/PNG format. They cannot be in EPS format.
-
-pdflatex --enable-write18  poster.tex
